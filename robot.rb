@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'bundler/setup'
+
+
 # Get robot name from env var
 unless (robotname = ENV['ROBOT_NAME'])
 	# Get host name from machine name
